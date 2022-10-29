@@ -1,0 +1,6 @@
+image: matthewtingum/muslcc-armv7l:0.1
+
+aliases:
+  test:
+    script:
+      - armv7l-linux-musleabihf-gcc main.c -static -o test
